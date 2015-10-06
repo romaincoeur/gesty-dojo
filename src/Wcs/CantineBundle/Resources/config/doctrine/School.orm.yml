@@ -1,0 +1,23 @@
+Wcs\CantineBundle\Entity\School:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        ville:
+            type: string
+            length: 255
+        niveau:
+            type: string
+            length: 255
+        public:
+            type: boolean
+            nullable: true
+    lifecycleCallbacks: {  }

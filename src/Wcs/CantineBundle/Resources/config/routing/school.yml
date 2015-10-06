@@ -1,0 +1,30 @@
+school:
+    path:     /
+    defaults: { _controller: "WcsCantineBundle:School:index" }
+
+school_show:
+    path:     /{id}/show
+    defaults: { _controller: "WcsCantineBundle:School:show" }
+
+school_new:
+    path:     /new
+    defaults: { _controller: "WcsCantineBundle:School:new" }
+
+school_create:
+    path:     /create
+    defaults: { _controller: "WcsCantineBundle:School:create" }
+    methods:  POST
+
+school_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "WcsCantineBundle:School:edit" }
+
+school_update:
+    path:     /{id}/update
+    defaults: { _controller: "WcsCantineBundle:School:update" }
+    methods:  [POST, PUT]
+
+school_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "WcsCantineBundle:School:delete" }
+    methods:  [POST, DELETE]

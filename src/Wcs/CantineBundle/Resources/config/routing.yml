@@ -1,0 +1,7 @@
+wcs_cantine_school:
+    resource: "@WcsCantineBundle/Resources/config/routing/school.yml"
+    prefix:   /school
+
+wcs_cantine_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: WcsCantineBundle:Default:index }

@@ -1,0 +1,7 @@
+wcs_cantine:
+    resource: "@WcsCantineBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

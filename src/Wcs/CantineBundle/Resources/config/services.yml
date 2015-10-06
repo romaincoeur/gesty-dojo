@@ -1,0 +1,4 @@
+services:
+#    wcs_cantine.example:
+#        class: Wcs\CantineBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
